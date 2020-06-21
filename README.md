@@ -14,7 +14,7 @@ The dataset contains 20 features which includes some demographic information, ac
 
 The dataset contains records of 7043 customers, out of which nearly 27% of the customer have churned. This indicates that we have an imbalanced dataset at hand.
 
-**Image 1**
+![Count Plot](https://github.com/muhammedsalihk/Churn-Predictor-for-Telecom-Customers/blob/master/Images/Image%201.png)
 
 ## Methodology
 Since we have an imbalanced dataset, three sampling strategies were tried in order to create an efficient model.
@@ -25,7 +25,7 @@ Since we have an imbalanced dataset, three sampling strategies were tried in ord
 
 Before going ahead with the sampling, a detailed exploratory analysis was perfomed on the data and based on the inferences obtained, a set of relevant features were selected and some new features were engineered.
 
-**Image 2**
+![EDA Sample](https://github.com/muhammedsalihk/Churn-Predictor-for-Telecom-Customers/blob/master/Images/Image%202.png)
 
 The data was divided into three sets (train, dev and test) in an 80-10-10 ratio. We had to define an explicit dev set as cross validation approach on the train set wouldn’t be viable while using the undersampling and oversampling techniques as the train set in those cases wouldn’t exactly represent the real world case.
 
