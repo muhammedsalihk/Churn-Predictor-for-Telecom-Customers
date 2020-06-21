@@ -41,7 +41,7 @@ The following models were evaluated for performance on each of the three samplin
     5. Random Forest
     6. Gradient Boosting
     7. XGBoost Classifier
-    8. XG Boost Random Forest Classifier
+    8. XGBoost Random Forest Classifier
 
 The performance of the different models are summarised below.
 
