@@ -44,3 +44,17 @@ The following models were evaluated for performance on each of the three samplin
     8. XG Boost Random Forest Classifier
 
 The performance of the different models are summarised below.
+
+**Original Dataset**
+
+![Original](https://github.com/muhammedsalihk/Churn-Predictor-for-Telecom-Customers/blob/master/Images/Original.png)
+
+**Undersampling**
+
+![Undersampling](https://github.com/muhammedsalihk/Churn-Predictor-for-Telecom-Customers/blob/master/Images/Under.png)
+
+**Oversampling with SMOTE**
+
+![Oversampling](https://github.com/muhammedsalihk/Churn-Predictor-for-Telecom-Customers/blob/master/Images/Over.png)
+
+It can be seen that out of the models and sampling techniques we have tried, the best performance on the test set is obtained for Gradient Boosting with the oversampling technique. But from the results, it is clear that we are facing a high variance (overfitting) problem, especially in the oversampled dataset which means that there is further scope of improvement by tuning the hyperparameters further.
